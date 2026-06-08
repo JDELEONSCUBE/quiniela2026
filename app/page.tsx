@@ -76,6 +76,17 @@ export default async function HomePage() {
         </div>
       )}
 
+      {/* CTA Pronósticos */}
+      <div className="card-cyber flex flex-col sm:flex-row items-center justify-between gap-3 py-4">
+        <div>
+          <div className="font-semibold text-sm">¿Ya ingresaste tus pronósticos?</div>
+          <div className="text-xs text-[var(--text-muted)] mt-0.5">Los partidos comienzan el 11 de junio — ¡tienes hasta 1h antes!</div>
+        </div>
+        <Link href="/pronosticos" className="btn-primary shrink-0 whitespace-nowrap">
+          ⚽ Mis Pronósticos →
+        </Link>
+      </div>
+
       {/* Leaderboard */}
       <div className="card-cyber overflow-hidden">
         <div className="section-header flex items-center justify-between">
