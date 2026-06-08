@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none">
+  <!-- Cube icon -->
+  <polygon points="18,10 34,2 50,10 50,30 34,38 18,30" stroke="#00BFFF" stroke-width="1.5" fill="none"/>
+  <polygon points="18,10 18,30 34,38 34,18" fill="#00BFFF" fill-opacity="0.15" stroke="#00BFFF" stroke-width="1"/>
+  <polygon points="34,18 34,38 50,30 50,10" fill="#00BFFF" fill-opacity="0.08" stroke="#00BFFF" stroke-width="1"/>
+  <line x1="18" y1="10" x2="34" y2="18" stroke="#00BFFF" stroke-width="1" opacity="0.6"/>
+  <line x1="34" y1="2" x2="34" y2="18" stroke="#00BFFF" stroke-width="1" opacity="0.6"/>
+  <line x1="50" y1="10" x2="34" y2="18" stroke="#00BFFF" stroke-width="1" opacity="0.6"/>
+  <!-- S3 text -->
+  <text x="62" y="33" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="26" fill="#E2E8F0" letter-spacing="1">scube</text>
+  <text x="62" y="48" font-family="'Segoe UI', Arial, sans-serif" font-weight="400" font-size="9" fill="#00BFFF" letter-spacing="3">CYBERSECURITY</text>
+</svg>
