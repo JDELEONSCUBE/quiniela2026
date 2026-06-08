@@ -97,11 +97,7 @@ async function processFixture(
   }
 }
 
-// GET: para verificar que el endpoint funciona
+// GET: igual que POST — para cron-job.org que usa GET
 export async function GET(req: Request) {
-  const authHeader = req.headers.get('authorization')
-  if (CRON_SECRET && authHeader !== `Bearer ${CRON_SECRET}`) {
-    return NextResponse.json({ error: 'No autorizado' }, { status: 401 })
-  }
-  return NextResponse.json({ ok: true, message: 'Sync endpoint activo', timestamp: new Date().toISOString() })
+  return POST(req)
 }
